@@ -10,7 +10,7 @@ $breakpoint arguement choices:
 - tab-land
 - big-desktop
 ORDER: Base + typography > general layout + grid > page layout > components
-1em = 16px
+1em = 16px // em unit is the best option for media queries
 */
 /***** FONT ****/
 /***** COLORS ****/
@@ -52,6 +52,18 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 37.5%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
