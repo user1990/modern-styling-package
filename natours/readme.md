@@ -1,6 +1,6 @@
 # Natours
 
-Fictional web company website that offers nature tours.
+Fictional web company website that offers nature tours. [Demo](https://natours-site.herokuapp.com/).
 
 ## Features
 
