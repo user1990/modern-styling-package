@@ -14,4 +14,5 @@ Fictional web company website that offers nature tours. [Codepen demo](https://c
 - Transforming Elements
 - Transitions & Animations
 - SVG images and videos in HTML and CSS
+- New CSS properties: backface-visibility, clip-path, box-decoration-break, background-blend-mode, shape-outside
 - Cross-Browser compatibility
