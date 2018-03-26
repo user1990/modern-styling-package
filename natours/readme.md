@@ -14,5 +14,12 @@ Fictional web company website that offers nature tours.
 - Transforming Elements
 - Transitions & Animations
 - SVG images and videos in HTML and CSS
-- New CSS properties: backface-visibility, clip-path, box-decoration-break, background-blend-mode, shape-outside
+- New CSS properties:
+  * backface-visibility,
+  * clip-path,
+  * box-decoration-break,
+  * background-blend-mode,
+  * backdrop-filter,
+  * shape-outside
+  * hyphens
 - Cross-Browser compatibility
