@@ -1,6 +1,6 @@
 # Natours
 
-Fictional web company website that offers nature tours. [Codepen demo](https://codepen.io/user1990/project/editor/DVkyLx).
+Fictional web company website that offers nature tours.
 
 ## Features
 
