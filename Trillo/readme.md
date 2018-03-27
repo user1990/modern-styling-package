@@ -1,6 +1,6 @@
 # Trillo
 
-Fictional booking website for Hotels, Flights, Car Rental & Tours.
+Fictional booking website for Hotels, Flights, Car Rental & Tours. [Demo](https://trillo-site.herokuapp.com/).
 
 ## Features
 
