@@ -1,15 +1,15 @@
 .detail {
-  /* font-size: 1.4rem;
   display: flex;
+  font-size: 1.4rem;
   padding: 4.5rem;
-  background-color: var(--color-grey-light-1);
-  border-bottom: var(--line);
+  background-color: $color-grey-light-1;
+  border-bottom: $line;
 
   @media only screen and (max-width: $bp-medium) {
-      padding: 3rem;
+    padding: 3rem;
   }
 
   @media only screen and (max-width: $bp-small) {
-      flex-direction: column;
-  } */
+    flex-direction: column;
+  }
 }
