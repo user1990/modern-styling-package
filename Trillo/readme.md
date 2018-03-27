@@ -1,4 +1,4 @@
-# Natours
+# Trillo
 
 Fictional booking website for Hotels, Flights, Car Rental & Tours.
 
