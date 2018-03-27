@@ -7,6 +7,8 @@
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
@@ -16,11 +18,16 @@
   }
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
 
     &::after {
-      transform: scaleX(1.4) scaleY(1.6);
+      -webkit-transform: scaleX(1.4) scaleY(1.6);
+          -ms-transform: scaleX(1.4) scaleY(1.6);
+              transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
     }
   }
@@ -28,8 +35,11 @@
   &:active,
   &:focus {
     outline: none;
-    transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+            box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
 
   &--white {
@@ -51,11 +61,14 @@
     top: 0;
     left: 0;
     z-index: -1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
   }
 
   &--animated {
-    animation: moveInBottom 0.5s ease-out 0.75s backwards;
+    -webkit-animation: moveInBottom 0.5s ease-out 0.75s backwards;
+            animation: moveInBottom 0.5s ease-out 0.75s backwards;
   }
 }
 
@@ -73,12 +86,18 @@
   &:hover {
     background-color: $color-primary;
     color: $color-white;
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
-    transform: translateY(-2px);
+    -webkit-box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: 0 .5rem 1rem rgba($color-black, .15);
-    transform: translateY(0);
+    -webkit-box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+            box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
   }
 }

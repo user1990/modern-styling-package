@@ -4,17 +4,17 @@
   font-size: 1.4rem;
   color: $color-grey-light-1;
 
-  /* @include respond(tab-port) {
+  @include respond(tab-port) {
     padding: 8rem 0;
-  } */
+  }
 
   &__logo-box {
     text-align: center;
     margin-bottom: 8rem;
 
-   /*  @include respond(tab-port) {
+    @include respond(tab-port) {
       margin-bottom: 6rem;
-    } */
+    }
   }
 
   &__logo {
@@ -27,10 +27,10 @@
     padding-top: 2rem;
     display: inline-block;
 
-    /* @include respond(tab-port) {
+    @include respond(tab-port) {
       width: 100%;
       text-align: center;
-    } */
+    }
   }
 
   &__list {
@@ -53,14 +53,19 @@
       text-decoration: none;
       text-transform: uppercase;
       display: inline-block;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
       transition: all 0.2s;
     }
 
     &:hover,
     &:active {
       color: $color-primary;
-      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
-      transform: rotate(5deg) scale(1.3);
+      -webkit-box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+              box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      -webkit-transform: rotate(5deg) scale(1.3);
+          -ms-transform: rotate(5deg) scale(1.3);
+              transform: rotate(5deg) scale(1.3);
     }
   }
 
@@ -70,9 +75,9 @@
     width: 80%;
     float: right;
 
-   /*  @include respond(tab-port) {
+    @include respond(tab-port) {
       width: 100%;
       float: none;
-    } */
+    }
   }
 }

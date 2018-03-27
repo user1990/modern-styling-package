@@ -1,23 +1,29 @@
 body {
-  color: $color-grey-dark-1;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  padding: 3rem;
+  color: $color-grey-dark-1;
 }
 
 .heading-primary {
-  backface-visibility: hidden; /* remove shaking effect on container */
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   color: $color-white;
   margin-bottom: 6rem;
   text-transform: uppercase;
 
   &--main {
-    animation: moveInLeft 1s ease-in-out;
+    -webkit-animation: moveInLeft 1s ease-in-out;
+            animation: moveInLeft 1s ease-in-out;
     display: block;
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-family: 5rem;
+    }
   }
 
   &--sub {
@@ -25,7 +31,12 @@ body {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-in-out;
+    -webkit-animation: moveInRight 1s ease-in-out;
+            animation: moveInRight 1s ease-in-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
   }
 }
 
@@ -34,6 +45,22 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
+  background-image: -webkit-gradient(
+    linear,
+    left top, right top,
+    from($color-primary-light),
+    to($color-primary-dark)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  background-image: -o-linear-gradient(
+    left,
+    $color-primary-light,
+    $color-primary-dark
+  );
   background-image: linear-gradient(
     to right,
     $color-primary-light,
@@ -42,10 +69,22 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+
   &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
+        -ms-transform: skewY(2deg) skewX(15deg) scale(1.1);
+            transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
