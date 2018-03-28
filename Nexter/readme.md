@@ -1,17 +1,16 @@
 # Nexter
 
-Fictional booking website for Hotels, Flights, Car Rental & Tours.
+Fictional booking website for Apartments.
 
 ## Features
 
 - Tons of modern CSS techniques of stunning designs and effects
-- Maintainable & Scalable code
-- Responsive images in HTML and CSS for faster pageloads
-- WEB performance
+- CSS-Grid Layout, best practices & use cases
 - SASS
-- CSS Grid Layout
-- CSS architecture: component-based design, BEM, writing reusable code
-- Transforming Elements
-- Transitions & Animations
+- Maintainable & Scalable code
 - SVG images and videos in HTML and CSS
+- WEB performance
+- CSS architecture: component-based design, BEM, writing reusable code
+- Transitions & Animations
+- Transforming elements
 - Cross-Browser compatibility
