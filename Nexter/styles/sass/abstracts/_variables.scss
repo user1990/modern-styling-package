@@ -14,6 +14,12 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
+$color-white: #fff;
+$color-black: #fff;
+
+$shadow-img-1: 0 2rem 5rem rgba($color-black, .1);
+$shadow-img-2: 0 2rem 5rem rgba($color-black, .2);
+
 /***** RESPONSIVE BREAKPOINTS ****/
 $bp-largest: 75em;   // 1200px
 $bp-large: 62.5em;   // 1000px
