@@ -20,10 +20,10 @@
     grid-column: 2 / 6;
     box-shadow: $shadow-img-1;
 
-    /* @media only screen and (max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
       grid-column: 1 / 5;
       grid-row: 1 / -1;
-    } */
+    }
   }
 
   &__img--2 {
@@ -33,10 +33,10 @@
     z-index: 20;
     box-shadow: $shadow-img-2;
 
-    /* @media only screen and (max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-medium) {
       grid-row: 1 / -1;
       width: 100%;
-    } */
+    }
   }
 
   &__content {
