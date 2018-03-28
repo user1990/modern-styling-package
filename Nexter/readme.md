@@ -1,6 +1,6 @@
 # Nexter
 
-Fictional booking website for Apartments.
+Fictional booking website for Apartments. [Demo](https://nexter-site.herokuapp.com/).
 
 ## Features
 
